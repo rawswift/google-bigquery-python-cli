@@ -24,13 +24,16 @@ http = credentials.authorize(http)
 service = build('bigquery', 'v2', http=http)
 
 try:
+
+    job = service.jobs()
+
     # Create request object and query statement
-    query_request = service.jobs()
-    query_data = {'query':'SELECT * FROM dataset_id.table_name;'}
+    # Replace 'dataset_id.table_name' w/ the actual dataset and table name/id
+    request_body = {'query':'SELECT * FROM dataset_id.table_name;'}
 
     # Call BigQuery API
-    response = query_request.query(projectId=gc.project_id,
-                                   body=query_data).execute()
+    response = job.query(projectId=gc.project_id,
+                         body=request_body).execute()
 
     for row in response['rows']:
         result_row = []
