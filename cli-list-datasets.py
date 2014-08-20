@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-''' List project's dataset(s) '''
+'''
+List project's dataset(s)
+Reference: https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.datasets.html#list
+'''
 
 import httplib2
 

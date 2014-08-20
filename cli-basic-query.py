@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-''' Basic query '''
+'''
+Basic query
+Reference: https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.jobs.html#query
+'''
 
 import httplib2
 

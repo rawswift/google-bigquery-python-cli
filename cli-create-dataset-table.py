@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-''' Create dataset table (w/ sample schema) '''
+'''
+Create dataset table (w/ sample schema)
+Reference: https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.tables.html#insert
+'''
 
 import httplib2
 

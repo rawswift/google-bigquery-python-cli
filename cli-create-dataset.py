@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-''' Create dataset '''
+'''
+Create dataset
+Reference: https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.datasets.html#insert
+'''
 
 import httplib2
 

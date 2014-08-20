@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-''' List dataset's table(s) '''
+'''
+List dataset's table(s)
+Reference: https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.tables.html#list
+'''
 
 import httplib2
 
